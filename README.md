@@ -2,6 +2,17 @@
 
 These examples are included in the Ultibo core installer download and can be found from the Lazarus IDE by selecting Tools, Example Projects.. from the menu.
 
+### Gitpod Cloud IDE support
+
+The QEMU examples can be run in the cloud. [This link will open a gitpod workspace on markfirmware/Examples (branch examples-gitpod.)](https://gitpod.io/#https://github.com/markfirmware/Examples/tree/examples-gitpod)
+(It may take a few minutes to start the workspace.)
+The [.gitpod.yml file](.gitpod.yml) is configured to run example 01 and it will be displayed in a separate browser window.
+
+To run a different example, enter control-c in the terminal window and enter
+
+    ./run-qemu-example [EXAMPLE]
+where EXAMPLE is the example folder (such as "01-HellowWorld".) If EXAMPLE is omitted, the list of available examples is listed.
+
 ### Example projects included:
 
 * 01-HelloWorld - Classic hello world example.

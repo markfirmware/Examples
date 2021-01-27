@@ -33,3 +33,5 @@ kern*.img
 *.list
 *.compiled
 
+# Ultibo files
+kernel.bin

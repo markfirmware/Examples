@@ -1,0 +1,13 @@
+image: markformware/ultibo-gitpod
+
+ports:
+  - port: 5080
+    onOpen: open-browser
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-browser
+
+tasks:
+  - name: qemu
+    command: ./run-qemu-example 01-HelloWorld
